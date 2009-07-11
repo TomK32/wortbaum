@@ -1,0 +1,21 @@
+Wortbaum is an Open Source application for writing books and magazines online.
+
+== Features
+None so far
+
+== Future Features
+* Manage Books, Chapters, Pages and freely definable elements like Characters
+* Templates for those freely definable elements so that novels and non-fiction have their own set
+* Multiple Users writing on one Book or Chapter
+* Invite other users to a Book, Chapter or Page
+* Account creation on the fly (start writing, invitees have an account)
+* Export a Book to a git repository (e.g. for a customized jekyll fork)
+
+== Technical notes
+
+* Book and Chapter inherit from Page
+* Note can be something like a charater description, reference or similar
+  Can be referenced by several pages
+* User, UserPagePermission
+* Export ePub
+
